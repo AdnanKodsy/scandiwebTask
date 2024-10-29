@@ -2,10 +2,10 @@
 namespace SCANDIWEB\Database;
 
 class DatabaseConfig {
-    private static $host = 'sql212.infinityfree.com';
-    private static $username = 'if0_37598014';
-    private static $password = 'KZZmA8ELflvts';
-    private static $dbname = 'if0_37598014_productsys';
+    private static $host = 'localhost';
+    private static $username = 'u197123263_adnan';
+    private static $password = 'Remo1amal';
+    private static $dbname = 'u197123263_productsys';
 
     public static function getConnection() {
         $mysqli = new \mysqli(self::$host, self::$username, self::$password, self::$dbname);

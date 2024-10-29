@@ -3,7 +3,7 @@ const deleteButton = document.getElementById('delete-product-btn');
 
 async function fetchProducts() {
     try {
-        const response = await fetch('http://adnan-app.infinityfreeapp.com/index.php/scandiweb/products', {
+        const response = await fetch('https://adnan-app.shop/index.php/scandiweb/products', {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json'
@@ -54,7 +54,7 @@ async function deleteProducts() {
     }
 
     try {
-        const response = await fetch('http://adnan-app.infinityfreeapp.com/index.php/scandiweb/products/delete', {
+        const response = await fetch('https://adnan-app.shop/index.php/scandiweb/products/delete', {
             method: 'POST',
             mode: 'cors',
             headers: {
